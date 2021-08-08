@@ -1,0 +1,5 @@
+collections:
+  Primetime:
+    trakt_list:
+      - https://trakt.tv/users/htlcalbbs/lists/primetime
+    summary: Currently Airing in Primetime on Broadcast Networks
