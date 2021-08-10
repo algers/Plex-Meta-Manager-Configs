@@ -3,7 +3,7 @@ collections:
     sync_mode: sync
     trakt_list: https://trakt.tv/users/sp1ti/lists/1001-movies-you-must-see-before-you-die
     summary: 1001 Movies You Must See Before You Die is a film reference book edited by Steven Jay Schneider with original essays on each film contributed by over 70 film critics.
-    url_poster: https://cdn.seanalger.com/images/1001-cover.jpg
+    url_poster: https://cdn.seanalger.com/images/plex/library/1001.jpeg
     radarr_add: true
     radarr_search: false
     radarr_monitor: true
