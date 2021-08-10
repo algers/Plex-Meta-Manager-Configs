@@ -9,33 +9,50 @@ templates:
 collections:
   HBO:
     template: { name: network, network: "49, 2593, 3186, 3308" }
+    url_poster: https://cdn.seanalger.com/images/hbo.jpg
   Cinemax:
     template: { name: network, network: 359 }
+    url_poster: https://cdn.seanalger.com/images/cinemax.jpg
   Showtime:
     template: { name: network, network: 67 }
+    url_poster: https://cdn.seanalger.com/images/showtime.jpg
   Netflix:
     template: { name: network, network: 213 }
+    url_poster: https://cdn.seanalger.com/images/netflix.png
   Hulu:
     template: { name: network, network: 453 }
+    url_poster: https://cdn.seanalger.com/images/hulu.png
   Syfy:
     template: { name: network, network: "77, 3701" }
+    url_poster: https://cdn.seanalger.com/images/syfy.jpg
   Starz:
     template: { name: network, network: "318, 758, 4906" }
+    url_poster: https://cdn.seanalger.com/images/starz.png
   HGTV:
     template: { name: network, network: 210 }
+    url_poster: https://cdn.seanalger.com/images/hgtv.jpg
   TBS:
     template: { name: network, network: "68, 160, 4888" }
+    url_poster: https://cdn.seanalger.com/images/tbs.png
   National Geographic:
     template: { name: network, network: "43, 799, 1756, 1825, 3355, 4293, 4476" }
+    url_poster: https://cdn.seanalger.com/images/national-geographic.jpg
   Prime Video:
     template: { name: network, network: 1024 }
+    url_poster: https://cdn.seanalger.com/images/primevideo.jpg
   FX:
     template: { name: network, network: 88 }
+    url_poster: https://cdn.seanalger.com/images/fx.jpg
   Disney+:
     template: { name: network, network: "2739, 2919" }
+    url_poster: https://cdn.seanalger.com/images/disneyplus.jpg
   Apple+:
     template: { name: network, network: 2552 }
+    url_poster: https://cdn.seanalger.com/images/appletvplus.jpg
   Discovery:
     template: { name: network, network: "10, 22, 64, 106, 244, 626, 670, 1079, 1287, 1534, 2087, 2480, 2692, 3045, 3591, 3900, 3953, 4440, 4462, 4741" }
+    url_poster: https://cdn.seanalger.com/images/discovery.png
   A&E:
     template: { name: network, network: "129, 2639, 3688" }
+    url_poster: https://cdn.seanalger.com/images/aande.jpg
+
