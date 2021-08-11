@@ -12,7 +12,6 @@ collections:
       name: Chart
       num: 3
     summary: IMDB.com Top Rated of All Time
-    collection_order: alpha
     imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc
     sort_title: "+100"
     url_poster: https://cdn.seanalger.com/images/plex/library/Top%20Row%20Collection%20Posters/IMDB%20Top%20250%20v3.jpg
@@ -27,7 +26,7 @@ collections:
   Golden Globes:
     url_poster: https://miro.medium.com/max/1200/1*h7Ej6DycHXAvw96AhqR1eA.jpeg
     imdb_list: https://www.imdb.com/search/title/?title_type=feature&groups=golden_globe_winner
-    sort_tile: "+104"
+    sort_tilte: "+104"
     summary: Globe Winning Movies
     template:
       name: Chart
@@ -47,7 +46,6 @@ collections:
       name: Chart
       num: 4
     collection_mode: default
-    collection_order: alpha
     sort_title: "+101"
     summary: A collection of Reddit's Top 250 Movies (2019).
     sync_mode: synchttps://cdn.seanalger.com/images/plex/library/Top%20Row%20Collection%20Posters/Reddit%20Top%20250%20v3.jpg
@@ -68,7 +66,6 @@ collections:
     sort_title: "+102"
     summary: Top 250 Popular Movies on trakt.tv
     sync_mode: sync
-    trakt_list: null
     trakt_popular: 250
     url_poster: https://cdn.seanalger.com/images/plex/library/Top%20Row%20Collection%20Posters/Trakt%20Top%20250%20v3.jpg
   Trending:

@@ -11,7 +11,7 @@ collections:
   Star Wars:
     tmdb_collection: https://www.themoviedb.org/collection/10-star-wars-collection
     tmdb_summary: https://www.themoviedb.org/collection/10-star-wars-collection
-    collection_order: releases
+    collection_order: release
     url_poster: https://cdn.seanalger.com/images/plex/library/Star%20Wars%20Collection/Star%20Wars%20Stylized%20Logos/Collection%20-%20A%20Star%20Wars%20Story.jpg
 
     
