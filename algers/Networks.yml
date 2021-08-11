@@ -7,143 +7,267 @@ templates:
     sync_mode: sync
     smart_label: episode_added.desc
 collections:
-  HBO:
-    template: { name: network, network: "49, 2593, 3186, 3308" }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/HBO.png
-  Cinemax:
-    template: { name: network, network: 359 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Cinemax.png
-  Showtime:
-    template: { name: network, network: 67 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Showtime.png
-  Netflix:
-    template: { name: network, network: 213 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Netflix.png
-  Hulu:
-    template: { name: network, network: 453 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Hulu.png
-  Syfy:
-    template: { name: network, network: "77, 3701" }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Syfy.png
-  Starz:
-    template: { name: network, network: "318, 758, 4906" }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Starz.png
-  HGTV:
-    template: { name: network, network: 210 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/HGTV.png
-  TBS:
-    template: { name: network, network: "68, 160, 4888" }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/TBS.png
-  National Geographic:
+  A&E:
     template:
-      { name: network, network: "43, 799, 1756, 1825, 3355, 4293, 4476" }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/National%20Geographic.png
-  Prime Video:
-    template: { name: network, network: 1024 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Prime%20Video.png
-  FX:
-    template: { name: network, network: 88 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/FX.png
-  Disney+:
-    template: { name: network, network: "2739, 2919" }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Disney%2B.png
+      name: network
+      network: 129, 2639, 3688
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/A_E.png
+    sonarr_add: false
+  ABC:
+    template:
+      name: network
+      network: 2
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/ABC.png
+    url_background: https://cdn.seanalger.com/images/plex/shows/networks/ABC.png
+    sonarr_add: false
+  ABC Family:
+    template:
+      name: network
+      network: 75
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/ABC%20Family.png
+    sonarr_add: false
+  AMC:
+    template:
+      name: network
+      network: 174
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/AMC_color.png
+    sonarr_add: false
+  Animal Planet:
+    template:
+      name: network
+      network: 2781
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Animal%20Planet.png
+    sonarr_add: false
   Apple+:
-    template: { name: network, network: 2552 }
+    template:
+      name: network
+      network: 2552
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Apple%20TV%2B.png
+    url_background: https://cdn.seanalger.com/images/plex/shows/networks/Apple%20TV%2B.png
+    sonarr_add: true
+  Boomerang:
+    template:
+      name: network
+      network: 523
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Boomerang.png
+    sonarr_add: false
+  Bravo:
+    template:
+      name: network
+      network: 74
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Bravo.png
+    sonarr_add: false
+  CBS:
+    template:
+      name: network
+      network: 1709, 5109
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/CBS.png
+    sonarr_add: false
+  Cartonn Network:
+    template:
+      name: network
+      network: 56
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Cartoon%20Network.png
+    sonarr_add: false
+  Cinemax:
+    template:
+      name: network
+      network: 359
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Cinemax.png
+    sonarr_add: false
+  Comedy Central:
+    template:
+      name: network
+      network: 278
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Comedy%20Central.png
+    sonarr_add: false
   Discovery:
     template:
-      {
-        name: network,
-        network: "10, 22, 64, 106, 244, 626, 670, 1079, 1287, 1534, 2087, 2480, 2692, 3045, 3591, 3900, 3953, 4440, 4462, 4741",
-      }
+      name: network
+      network: 10, 22, 64, 106, 244, 626, 670, 1079, 1287, 1534, 2087, 2480, 2692, 3045, 3591, 3900, 3953, 4440, 4462, 4741
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Discovery.png
-  A&E:
-    template: { name: network, network: "129, 2639, 3688" }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/A_E.png
-  MTV:
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/MTV.png
-    template: { name: network, network: "17, 33, 295, 252, 335, 488, 2414" }
-  Bravo:
-    template: { name: network, network: 74 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Bravo.png
-  E:
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/E!.png
-    template: { name: network, network: 76 }
-  VH1:
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/VH1.png
-    template: { name: network, network: 158 }
-  Nickelodeon:
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Nick.png
-  ABC Family:
-    template: { name: network, network: 75 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/ABC%20Family.png
-  ABC:
-    template: { name: network, network: 2 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/ABC.png
-  Animal Planet:
-    template: { name: network, network: 2781 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Animal%20Planet.png
-  AMC:
-    template: { name: network, network: 174 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/AMC_color.png
-  Boomerang:
-    template: { name: network, network: 523 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Boomerang.png
-  CBS:
-    template: { name: network, network: "1709, 5109" }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/CBS.png
-  Cartonn Network:
-    template: { name: network, network: 56 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Cartoon%20Network.png
-  Comedy Central:
-    template: { name: network, network: 278 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Comedy%20Central.png
+    sonarr_add: false
   Disney Channel:
     template:
-      {
-        name: network,
-        network: "54, 515, 539, 730, 1385, 1996, 2327, 2534, 2897, 3408, 4006, 4350, 4426",
-      }
+      name: network
+      network: 54, 515, 539, 730, 1385, 1996, 2327, 2534, 2897, 3408, 4006, 4350, 4426
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Disney%20Channel.png
+    sonarr_add: false
+  Disney+:
+    template:
+      name: network
+      network: 2739, 2919
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Disney%2B.png
+    sonarr_add: false
+  E:
+    template:
+      name: network
+      network: 76
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/E!.png
+    sonarr_add: false
   ESPN:
-    template: { name: network, network: 2540 }
+    template:
+      name: network
+      network: 2540
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/ESPN.png
+    sonarr_add: false
+  FX:
+    template:
+      name: network
+      network: 88
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/FX.png
+    sonarr_add: false
   Food Network:
-    template: { name: network, network: 2793 }
+    template:
+      name: network
+      network: 2793
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Food%20Network.png
+    sonarr_add: false
   Fox:
-    template: { name: network, network: 19 }
+    template:
+      name: network
+      network: 19
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Fox.png
-  History:
-    template: { name: network, network: 65 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/History%20Channel.png
+    sonarr_add: false
+  HBO:
+    template:
+      name: network
+      network: 49, 2593, 3186, 3308
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/HBO.png
+    sonarr_add: false
+  HGTV:
+    template:
+      name: network
+      network: 210
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/HGTV.png
+    sonarr_add: false
   Hallmark Channel:
-    template: { name: network, network: 384 }
+    template:
+      name: network
+      network: 384
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Hallmark.png
+    sonarr_add: false
+  History:
+    template:
+      name: network
+      network: 65
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/History%20Channel.png
+    sonarr_add: false
+  Hulu:
+    template:
+      name: network
+      network: 453
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Hulu.png
+    sonarr_add: false
   IFC:
-    template: { name: network, network: 672 }
+    template:
+      name: network
+      network: 672
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/IFC.png
+    sonarr_add: false
+  MTV:
+    template:
+      name: network
+      network: 17, 488, 33, 454
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/MTV.png
+    sonarr_add: false
   NBC:
-    template: { name: network, network: 6 }
+    template:
+      name: network
+      network: 6
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/NBC.png
-  Peacock:
-    template: { name: network, network: 3353 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Peacock.png
+    sonarr_add: false
+  National Geographic:
+    template:
+      name: network
+      network: 43, 799, 1756, 1825, 3355, 4293, 4476
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/National%20Geographic.png
+    sonarr_add: false
+  Netflix:
+    template:
+      name: network
+      network: 213
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Netflix.png
+    sonarr_add: false
+  Nickelodeon:
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Nick.png
+    sonarr_add: false
   Paramount:
-    template: { name: network, network: 4330 }
+    template:
+      name: network
+      network: 4330
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Paramount+.png
+    sonarr_add: false
+  Peacock:
+    template:
+      name: network
+      network: 3353
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Peacock.png
+    sonarr_add: false
+  Prime Video:
+    template:
+      name: network
+      network: 1024
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Prime%20Video.png
+    sonarr_add: false
+  Showtime:
+    template:
+      name: network
+      network: 67
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Showtime.png
+    sonarr_add: false
   Spike:
-    template: { name: network, network: 55 }
+    template:
+      name: network
+      network: 55
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Spike.png
+    sonarr_add: false
+  Starz:
+    template:
+      name: network
+      network: 318, 758, 4906
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Starz.png
+    sonarr_add: false
+  Syfy:
+    template:
+      name: network
+      network: 77, 3701
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Syfy.png
+    sonarr_add: false
+  TBS:
+    template:
+      name: network
+      network: 68, 160, 4888
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/TBS.png
+    sonarr_add: false
   TLC:
-    template: { name: network, network: 84 }
+    template:
+      name: network
+      network: 84,1172,2167
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/TLC.png
-  The CW:
-    template: { name: network, network: 71 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/The%20CW.png
-  Travel Channel:
-    template: { name: network, network: 209 }
-    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Travel%20Channel.png
+    sonarr_add: false
   TNT:
-    template: { name: network, network: 1191 }
+    template:
+      name: network
+      network: 1191
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/TNT.png
+    sonarr_add: false
+  The CW:
+    template:
+      name: network
+      network: 71
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/The%20CW.png
+    sonarr_add: false
+  Travel Channel:
+    template:
+      name: network
+      network: 209
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Travel%20Channel.png
+    sonarr_add: false
+  VH1:
+    template:
+      name: network
+      network: 158
+    url_poster: https://cdn.seanalger.com/images/plex/shows/networks/VH1.png
+    sonarr_add: false
+    
