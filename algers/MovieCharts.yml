@@ -6,49 +6,77 @@ templates:
     sort_title: +1_<<num>><<collection_name>>
     sync_mode: sync
     smart_label: random
-  Best of:
-    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
-    sort_title: +1_Best of <<year>>
-    sync_mode: sync
-    summary: Rotten Tomatoes Best Movies of <<year>>
-    smart_label: audience_rating.desc
 collections:
+  IMDb Top 250:
+    template:
+      name: Chart
+      num: 3
+    summary: IMDB.com Top Rated of All Time
+    collection_order: alpha
+    imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc
+    sort_title: "+100"
+    url_poster: https://cdn.seanalger.com/images/plex/library/Top%20Row%20Collection%20Posters/IMDB%20Top%20250%20v3.jpg
+  Oscars:
+    imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
+    sort_title: "+103"
+    summary: Oscar Winning Movies
+    template:
+      name: Chart
+      num: 6
+    url_poster: https://cdn.seanalger.com/images/plex/library/Imgur%20Album%20Plex%20Oscars%20Collections%20Posters/1%20-%20zcehWpv.png
+  Golden Globes:
+    url_poster: https://miro.medium.com/max/1200/1*h7Ej6DycHXAvw96AhqR1eA.jpeg
+    imdb_list: https://www.imdb.com/search/title/?title_type=feature&groups=golden_globe_winner
+    sort_tile: "+104"
+    summary: Globe Winning Movies
+    template:
+      name: Chart
+      num: 7
+  Popular:
+    imdb_list:
+      limit: 40
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
+    sort_title: "+98"
+    summary: Popular Movies across the internet
+    template:
+      name: Chart
+      num: 2
+    tmdb_popular: 40
+  Reddit Top 250:
+    template:
+      name: Chart
+      num: 4
+    collection_mode: default
+    collection_order: alpha
+    sort_title: "+101"
+    summary: A collection of Reddit's Top 250 Movies (2019).
+    sync_mode: synchttps://cdn.seanalger.com/images/plex/library/Top%20Row%20Collection%20Posters/Reddit%20Top%20250%20v3.jpg
+    trakt_list: https://trakt.tv/users/jay-greene/lists/reddit-top-250-2019-edition
+    url_poster: https://cdn.seanalger.com/images/plex/library/Top%20Row%20Collection%20Posters/Reddit%20Top%20250%20v3.jpg
+  # Top Rated:
+  #   imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
+  #   sort_title: "+97"
+  #   summary: Top Rated Movies across the internet
+  #   template:
+  #     name: Chart
+  #     num: 0
+  #   tmdb_top_rated: 250
+  Trakt Top 250:
+    template:
+      name: Chart
+      num: 5
+    sort_title: "+102"
+    summary: Top 250 Popular Movies on trakt.tv
+    sync_mode: sync
+    trakt_list: null
+    trakt_popular: 250
+    url_poster: https://cdn.seanalger.com/images/plex/library/Top%20Row%20Collection%20Posters/Trakt%20Top%20250%20v3.jpg
   Trending:
-    template: { name: Chart, num: 2 }
-    trakt_trending: 10
+    sort_title: "+99"
+    summary: Movies Trending across the internet
+    template:
+      name: Chart
+      num: 1
     tmdb_trending_daily: 10
     tmdb_trending_weekly: 10
-    summary: Movies Trending across the internet
-  Popular:
-    template: { name: Chart, num: 3 }
-    tmdb_popular: 40
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
-      limit: 40
-    summary: Popular Movies across the internet
-  Top Rated:
-    template: { name: Chart, num: 4 }
-    imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
-    tmdb_top_rated: 250
-    summary: Top Rated Movies across the internet
-  Oscars:
-    template: { name: Chart, num: 5 }
-    imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
-    url_poster: https://cdn.seanalger.com/images/oscars-poster.jpg
-    summary: Oscar Winning Movies
-  Best of 2014:
-    template: { name: Best of, year: 2014 }
-  Best of 2015:
-    template: { name: Best of, year: 2015 }
-  Best of 2016:
-    template: { name: Best of, year: 2016 }
-  Best of 2017:
-    template: { name: Best of, year: 2017 }
-  Best of 2018:
-    template: { name: Best of, year: 2018 }
-  Best of 2019:
-    template: { name: Best of, year: 2019 }
-  Best of 2020:
-    template: { name: Best of, year: 2020 }
-  Best of 2021:
-    template: { name: Best of, year: 2021 }
+    trakt_trending: 10

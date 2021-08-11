@@ -5,6 +5,13 @@ collections:
     summary: 1001 Movies You Must See Before You Die is a film reference book edited by Steven Jay Schneider with original essays on each film contributed by over 70 film critics.
     url_poster: https://cdn.seanalger.com/images/plex/library/1001.jpeg
     radarr_add: true
-    radarr_search: false
+    radarr_search: true
     radarr_monitor: true
     radarr_tag: meta-manager,1001-before-die
+  Star Wars:
+    tmdb_collection: https://www.themoviedb.org/collection/10-star-wars-collection
+    tmdb_summary: https://www.themoviedb.org/collection/10-star-wars-collection
+    collection_order: releases
+    url_poster: https://cdn.seanalger.com/images/plex/library/Star%20Wars%20Collection/Star%20Wars%20Stylized%20Logos/Collection%20-%20A%20Star%20Wars%20Story.jpg
+
+    
