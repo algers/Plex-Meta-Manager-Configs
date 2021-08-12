@@ -39,7 +39,7 @@ collections:
     sonarr_add: false
     template:
       name: network
-      network: 2781
+      network: 91, 2781, 3627
     url_background: https://cdn.seanalger.com/images/plex/shows/networks/Animal%20Planet.png
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Animal%20Planet.png
   Apple+:
@@ -53,7 +53,7 @@ collections:
     sonarr_add: false
     template:
       name: network
-      network: 3,4,100,126,317,332,375,493
+      network: 3, 4, 100, 126, 317, 332, 375, 493
     url_background: https://cdn.seanalger.com/images/plex/shows/networks/BBC%20America.png
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/BBC%20America.png
   Boomerang:
@@ -74,7 +74,7 @@ collections:
     sonarr_add: false
     template:
       name: network
-      network: 1709, 5109
+      network: 16, 1709, 5109, 2528, 2621
     url_background: https://cdn.seanalger.com/images/plex/shows/networks/CBS.png
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/CBS.png
   Cartoon Network:
@@ -126,7 +126,7 @@ collections:
       network: 2739, 2919
     url_background: https://cdn.seanalger.com/images/plex/shows/networks/Disney%2B.png
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Disney%2B.png
-  E:
+  E!:
     sonarr_add: false
     template:
       name: network
@@ -151,7 +151,7 @@ collections:
     sonarr_add: false
     template:
       name: network
-      network: 2793
+      network: 143,2793,4638
     url_background: https://cdn.seanalger.com/images/plex/shows/networks/Food%20Network.png
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Food%20Network.png
   Fox:
@@ -172,21 +172,21 @@ collections:
     sonarr_add: false
     template:
       name: network
-      network: 210
+      network: 210,1672
     url_background: https://cdn.seanalger.com/images/plex/shows/networks/HGTV.png
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/HGTV.png
   Hallmark Channel:
     sonarr_add: false
     template:
       name: network
-      network: 384
+      network: 384, 2300, 2853, 3438
     url_background: https://cdn.seanalger.com/images/plex/shows/networks/Hallmark.png
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Hallmark.png
   History:
     sonarr_add: false
     template:
       name: network
-      network: 65
+      network: 65,17
     url_background: https://cdn.seanalger.com/images/plex/shows/networks/History%20Channel.png
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/History%20Channel.png
   Hulu:
@@ -207,14 +207,14 @@ collections:
     sonarr_add: false
     template:
       name: network
-      network: 9,149,261,590
+      network: 9, 149, 261, 590
     url_background: https://cdn.seanalger.com/images/plex/shows/networks/ITV.png
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/ITV.png
   Lifetime:
     sonarr_add: false
     template:
       name: network
-      network: 34
+      network: 34, 1072,
     url_background: https://cdn.seanalger.com/images/plex/shows/networks/Lifetime.png
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Lifetime.png
   MTV:
@@ -288,7 +288,7 @@ collections:
     sonarr_add: false
     template:
       name: network
-      network: 214,5059
+      network: 214, 5059
     url_background: https://cdn.seanalger.com/images/plex/shows/networks/SKY%20One.png
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/SKY%20One.png
   Smithsonian Channel:
@@ -302,7 +302,7 @@ collections:
     sonarr_add: false
     template:
       name: network
-      network: 55
+      network: 55, 1735, 5122
     url_background: https://cdn.seanalger.com/images/plex/shows/networks/Spike.png
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/Spike.png
   Starz:
@@ -323,7 +323,7 @@ collections:
     sonarr_add: false
     template:
       name: network
-      network: 68, 160, 4888
+      network: 68, 160, 4888, 4872, 4873
     url_background: https://cdn.seanalger.com/images/plex/shows/networks/TBS.png
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/TBS.png
   TLC:
@@ -365,6 +365,6 @@ collections:
     sonarr_add: false
     template:
       name: network
-      network: 158
+      network: 158, 664, 2803
     url_background: https://cdn.seanalger.com/images/plex/shows/networks/VH1.png
     url_poster: https://cdn.seanalger.com/images/plex/shows/networks/VH1.png
