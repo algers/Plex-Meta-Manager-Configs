@@ -8,7 +8,7 @@ collections:
     radarr_search: true
     radarr_monitor: true
     radarr_tag: 1001-before-die
-    item_radarr_tag: 1001-befire-die
+    item_radarr_tag: 1001-before-die
   Star Wars:
     tmdb_collection: https://www.themoviedb.org/collection/10-star-wars-collection
     tmdb_summary: https://www.themoviedb.org/collection/10-star-wars-collection
