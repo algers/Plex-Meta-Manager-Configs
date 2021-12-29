@@ -31,4 +31,3 @@ collections:
     template: { name: Chart, num: 5 }
     imdb_list: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
     summary: Emmy Winning Shows
-
