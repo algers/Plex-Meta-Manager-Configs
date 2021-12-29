@@ -1,7 +1,7 @@
 templates:
   Genre:
     plex_search:
-      genre: <<genre>>
+    genre: <<genre>>
     url_poster: <<poster>>
     sort_title: +3_<<collection_name>>
     collection_order: alpha
