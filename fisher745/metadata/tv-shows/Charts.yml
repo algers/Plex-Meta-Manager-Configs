@@ -5,11 +5,11 @@ templates:
     smart_label: random
 
 collections:
-  
+
 ######################################################
 #                Chart Collections                   #
 ######################################################
-  
+
   Plex Popular:
     template: { name: Chart, num: 1 }
     tautulli_popular:

@@ -9,7 +9,7 @@ templates:
       sort_by: random
       validate: false
     tmdb_person: <<person>>
-    sort_title: +5_<<collection_name>>  
+    sort_title: +5_<<collection_name>>
 
 collections:
 
@@ -20,13 +20,13 @@ collections:
   Adam Sandler:
     template: {name: Person, person: 19292}
   Akshay Kumar:
-    template: {name: Person, person: 35070}  
+    template: {name: Person, person: 35070}
   Al Pacino:
     template: {name: Person, person: 1158}
   Alfred Hitchcock:
     template: {name: Person, person: 2636}
   Amitabh Bachchan:
-    template: {name: Person, person: 35780}  
+    template: {name: Person, person: 35780}
   Amy Adams:
     template: {name: Person, person: 9273}
   Angelina Jolie:

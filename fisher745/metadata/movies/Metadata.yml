@@ -9,7 +9,7 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/31542
   Secret of the Wings:
     url_poster: https://theposterdb.com/api/assets/17247
-  
+
   # Marvel Cinematic Universe (https://theposterdb.com/set/90)
   Iron Man:
     url_poster: https://theposterdb.com/api/assets/346
@@ -150,7 +150,7 @@ metadata:
   "Batman: The Long Halloween, Part Two":
     url_poster: https://theposterdb.com/api/assets/172875
   "Batman: The Long Halloween, Part One":
-    url_poster: https://theposterdb.com/api/assets/172874  
+    url_poster: https://theposterdb.com/api/assets/172874
   Suicide Squad:
     year: 2016
     url_poster: https://theposterdb.com/api/assets/79226
@@ -171,8 +171,8 @@ metadata:
   Zack Snyder's Justice League:
     url_poster: https://theposterdb.com/api/assets/138328
   The Suicide Squad:
-    url_poster: https://theposterdb.com/api/assets/167287  
-  
+    url_poster: https://theposterdb.com/api/assets/167287
+
   # James Bond
   Dr. No:
     url_poster: https://theposterdb.com/api/assets/115663
@@ -244,9 +244,9 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/6011
   Who Framed Roger Rabbit:
     url_poster: https://theposterdb.com/api/assets/97894
-  Batman:  
+  Batman:
     url_poster: https://theposterdb.com/api/assets/50894
-  Batman & Robin:  
+  Batman & Robin:
     url_poster: https://theposterdb.com/api/assets/50897
   Batman Forever:
     url_poster: https://theposterdb.com/api/assets/50896
@@ -387,7 +387,7 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/110518
   Titanic:
     url_poster: https://theposterdb.com/api/assets/101704
-  
+
   # Bad Boys
   Bad Boys:
     url_poster: https://theposterdb.com/api/assets/26833
@@ -395,7 +395,7 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/26834
   Bad Boys for Life:
     url_poster: https://theposterdb.com/api/assets/26835
-  
+
   # The Expendables
   The Expendables 2:
     url_poster: https://theposterdb.com/api/assets/86705
@@ -403,7 +403,7 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/86706
   The Expendables:
     url_poster: https://theposterdb.com/api/assets/86704
-  
+
   # Jumanji
   Jumanji:
     url_poster: https://theposterdb.com/api/assets/54113
@@ -411,7 +411,7 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/54114
   "Jumanji: The Next Level":
     url_poster: https://theposterdb.com/api/assets/54115
-  
+
   # The Matrix
   The Matrix:
     url_poster: https://theposterdb.com/api/assets/64840
@@ -442,7 +442,7 @@ metadata:
   "Star Wars: Episode I - The Phantom Menace":
     url_poster: https://theposterdb.com/api/assets/28745
   "Star Wars: Episode II - Attack of the Clones":
-    url_poster: https://theposterdb.com/api/assets/28746  
+    url_poster: https://theposterdb.com/api/assets/28746
   "Star Wars: Episode III - Revenge of the Sith":
     url_poster: https://theposterdb.com/api/assets/28747
   "Star Wars: The Force Awakens":
@@ -470,4 +470,4 @@ metadata:
   Don't Breathe:
     url_poster: https://theposterdb.com/api/assets/173569
   Don't Breathe 2:
-    url_poster: https://theposterdb.com/api/assets/173570 
+    url_poster: https://theposterdb.com/api/assets/173570

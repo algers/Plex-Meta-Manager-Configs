@@ -5,7 +5,7 @@ templates:
     tmdb_network: <<network>>
     sort_title: +2_<<collection_name>>
     sync_mode: sync
-    smart_label: episode_added.desc    
+    smart_label: episode_added.desc
 collections:
 
 ######################################################

@@ -4,7 +4,7 @@
 ######################################################
 
 metadata:
-  
+
 ######################################################
 #                 Network Metadata                   #
 ######################################################
@@ -2447,7 +2447,7 @@ metadata:
       3:
         url_poster: https://theposterdb.com/api/assets/92222
       4:
-        url_poster: https://theposterdb.com/api/assets/92223  
+        url_poster: https://theposterdb.com/api/assets/92223
   The New Batman Adventures:
     url_poster: https://theposterdb.com/api/assets/92230
     seasons:
@@ -2457,5 +2457,4 @@ metadata:
         url_poster: https://theposterdb.com/api/assets/92232
       2:
         url_poster: https://theposterdb.com/api/assets/92233
-  
-      
+

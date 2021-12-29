@@ -12,13 +12,13 @@ templates:
     smart_label: audience_rating.desc
 
 collections:
+  ######################################################
+  #                Chart Collections                   #
+  ######################################################
 
-######################################################
-#                Chart Collections                   #
-######################################################
-  
   Plex Popular:
-    template: { name: Chart, num: 1, poster: https://theposterdb.com/api/assets/136359 }
+    template:
+      { name: Chart, num: 1, poster: https://theposterdb.com/api/assets/136359 }
     tautulli_popular:
       list_days: 30
       list_size: 20
@@ -29,7 +29,8 @@ collections:
       list_buffer: 20
     summary: Movies Popular on Plex
   Trending:
-    template: { name: Chart, num: 2, poster: https://theposterdb.com/api/assets/169001 }
+    template:
+      { name: Chart, num: 2, poster: https://theposterdb.com/api/assets/169001 }
     trakt_trending: 10
     tmdb_trending_daily: 10
     tmdb_trending_weekly: 10
@@ -46,7 +47,8 @@ collections:
     imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
     summary: Top Rated Movies across the internet
   Oscars:
-    template: { name: Chart, num: 6, poster: https://theposterdb.com/api/assets/192593 }
+    template:
+      { name: Chart, num: 6, poster: https://theposterdb.com/api/assets/192593 }
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
     summary: Oscar Winning Movies
   Best of 2014:
@@ -66,7 +68,7 @@ collections:
   Best of 2021:
     template: { name: Best of, year: 2021 }
 
-  Top 100 Bollywood Classics :
+  Top 100 Bollywood Classics:
     imdb_list: https://www.imdb.com/list/ls051598361/?st_dt=&mode=detail&page=1&sort=moviemeter,asc
     summary: Top Rated Movies from Bollywood Classics
-    sort_title: +1_5Top Rated Bollywood Classics 
+    sort_title: +1_5Top Rated Bollywood Classics
