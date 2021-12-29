@@ -15,10 +15,10 @@ collections:
     summary: Shows Trending across the internet
   Popular:
     template: { name: Chart, num: 3 }
-    tmdb_popular: 40
+    tmdb_popular: 100
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries
-      limit: 40
+      limit: 100
     summary: Popular Shows across the internet
   Top Rated:
     template: { name: Chart, num: 4 }
@@ -31,4 +31,4 @@ collections:
     template: { name: Chart, num: 5 }
     imdb_list: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
     summary: Emmy Winning Shows
-  
+
